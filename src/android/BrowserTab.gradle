@@ -1,7 +1,0 @@
-def minSdkVersion = 21
-
-if(ext.cdvMinSdkVersion == null) {
-    ext.cdvMinSdkVersion = minSdkVersion;
-} else if (ext.cdvMinSdkVersion.toInteger() < minSdkVersion) {
-    ext.cdvMinSdkVersion = minSdkVersion;
-}
